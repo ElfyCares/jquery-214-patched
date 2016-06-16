@@ -8989,10 +8989,10 @@ jQuery.fn.extend({
 
     docElem = doc.documentElement;
 
-    // Make sure it's not a disconnected DOM node
-    if ( !jQuery.contains( docElem, elem ) ) {
-      return box;
-    }
+    // // Make sure it's not a disconnected DOM node
+    // if ( !jQuery.contains( docElem, elem ) ) {
+    //  return box;
+    // }
 
     // Support: BlackBerry 5, iOS 3 (original iPhone)
     // If we don't have gBCR, just use 0,0 rather than error
